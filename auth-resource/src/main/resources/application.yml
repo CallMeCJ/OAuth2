@@ -1,0 +1,10 @@
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8081/auth/rest/helllo/principal
+  basic:
+    enabled: false
+server:
+  port: 8081
+
+
